@@ -1,10 +1,10 @@
-# ReadMe
+#ReadMe
 描述一个项目，一般都是通过README文件来编写。那么README文件是什么？
 文件后缀md是markdown的缩写，markdown是一种编辑博客的语言。
 不过GitHub支持的语法在标准markdown语法的基础上做了修改，称为Github Flavored Markdown。
 最近对它颇感兴趣，便花了点时间研究下，整理出来，帮助大家快速了解README文件如何编写。
 
-## 关于标题
+##关于标题
 标题分为六个等级，等同于HTML h1 - h6，显示的文本大小依次减小。
 不同等级之间是以井号#的个数来标识的。一级标题有一个#，二级标题有两个#，以此类推。
 
@@ -41,7 +41,7 @@
 	如果上方有了文字，但你又只想显示一条横线，而不想把上方的文字转义成大标题的话，
 	那么你就要在等于号 = 和文字之间直接补一个空行。
 
-## 关于横线
+##关于横线
 要显示直线，符合显示横线条件的符号必须写三个以上，且其上方必须无文字。比如：
 
 	=== 显示效果如下
@@ -60,7 +60,7 @@
 
 ___
 
-## 显示文本
+##显示文本
 ####普通文本
 这是一段普通的文本
 
@@ -150,3 +150,92 @@ Hello, `Hanl`. what is your `phonenumber ?`
 
 [![head]](http://www.baidu.com/)
 [head]:http://www.baidu.com/img/bdlogo.gif "点击图片进入百度"
+
+##关于列表
+####圆点列表
+
+	* 昵称：Hanl
+	* 年龄：24岁
+	* 技能：html、css、javascript // 效果如下:
+
+* 昵称：Hanl
+* 年龄：24岁
+* 技能：html、css、javascript
+
+####数字列表
+
+	1. html
+	2. css
+	3. javascript // 效果如下:
+
+1. html
+2. css
+3. javascript
+
+####数字列表自动排序
+
+	1. html
+	*  css
+	*  javascript // 效果如下:
+
+1. html
+*  css
+*  javascript
+
+#### 复选框列表
+	- [x] html
+	- [x] css
+	- [x] javascript
+	- [x] php
+	- [x] Android
+	- [ ] swift
+	- [ ] object-c // 效果如下:
+
+- [x] html
+- [x] css
+- [x] javascript
+- [x] php
+- [x] Android
+- [ ] swift
+- [ ] object-c
+
+####块引用
+	
+	>html
+	>>css
+	>>>javascript
+	>>>>php // 效果如下:
+
+>html
+>>css
+>>>javascript
+>>>>php
+
+##代码高亮
+我们需要在代码的上一行和下一行用 \`\`\` 标记。\`\`\` 不是三个单引号，而是数字1左边，Tab键上面的键。
+要实现语法高亮那么只要在 \`\`\` 之后加上你的编程语言即可（忽略大小写）。c++语言可以写成c++也可以是cpp。比如：
+	
+	```html
+	<div><p class="readme">README</p></div> // html
+	```
+
+```html
+<div><p class="readme">README</p></div> // html
+```
+
+	```css
+	.readme{color: red;font-size: 16px;} // css
+	```
+	
+```css
+.readme{color: red;font-size: 16px;} // css
+```
+
+	```javascript
+	document.documentElement.title = "README"; // javascipt
+
+	```
+```javascript
+document.documentElement.title = "README"; // javascipt
+```
+
