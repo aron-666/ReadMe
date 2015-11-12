@@ -115,6 +115,14 @@ Hello, `Hanl`. what is your `phonenumber ?`
 
 [百度](http://www.baidu.com "鼠标悬停显示") 
 
+####外部链接另一种写法
+
+	[百度][id]
+	[id]:http://www.baidu.com "鼠标悬停显示" // 效果如下:
+
+[百度][id]
+[id]:http://www.baidu.com "鼠标悬停显示"
+
 ####本仓库内部链接
 
 	[test](./test) // 效果如下:
