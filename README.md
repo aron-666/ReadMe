@@ -72,7 +72,7 @@ ___
 或者就是在两行文本直接加一个空行，就像这样。
 
 ####单行文本
-使用一个Tab包围起来符实现单行文本，效果如下：
+使用一个Tab实现单行文本，效果如下：
 
 	Hello, Hanl.
 
@@ -91,9 +91,10 @@ ___
 
 Hello, `Hanl`. what is your `phonenumber` ?
 
-	`Hello, Hanl. what is your phonenumber` ? // 高亮一整块 效果如下
+	```Hello, Hanl. what is your phonenumber``` ? 
+	// 高亮一整块 等同于使用一个tab 效果如下：
 
-`Hello, Hanl. what is your phonenumber ?`
+```Hello, Hanl. what is your phonenumber ?```
 
 ####删除线
 想要实现文字删除线，可以把它用 \~~ \~~ 包围起来（注意使用英文输入法），用法如下：
