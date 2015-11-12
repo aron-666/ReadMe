@@ -120,3 +120,10 @@ Hello, `Hanl`. what is your `phonenumber ?`
 	[test](./test) // 效果如下:
 
 [test](./test)
+
+####锚点
+
+	目标位置放<a name="xxx"/>
+	设置锚点：[回到xxx](#xxx) 
+
+[回到xxx](#xxx)
