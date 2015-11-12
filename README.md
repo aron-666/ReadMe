@@ -106,7 +106,7 @@ Hello, `Hanl`. what is your `phonenumber ?`
 *斜体*
 
 ##关于链接
-给一段文字加入链接的格式是这样的 \[要显示的文字\]\(链接的地址\)。  
+给一段文字加入链接的格式是这样的 \[要显示的文字\]\(链接的地址 提示文字\)。  
 如果要引用的文件不存在，则待点击的文本为红色。引用的文件存在，则文本为蓝色。
 
 ####外部链接
@@ -135,3 +135,16 @@ Hello, `Hanl`. what is your `phonenumber ?`
 	设置锚点：[回到xxx](#xxx) 
 
 [回到xxx](#xxx)
+
+##显示图片
+####外部链接的图片。比如：
+
+	![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo") // 效果如下:
+
+![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
+
+####github仓库中的图片。比如：
+
+	![](https://github.com/dongshaohan/dongshaohan.github.io/tree/master/public/img/1.jpg) // 效果如下:
+
+![](https://github.com/dongshaohan/dongshaohan.github.io/tree/master/public/img/1.jpg)
