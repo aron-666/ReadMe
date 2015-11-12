@@ -2,7 +2,7 @@
 描述一个项目，一般都是通过README文件来编写。那么README文件是什么？
 文件后缀md是markdown的缩写，markdown是一种编辑博客的语言。
 不过GitHub支持的语法在标准markdown语法的基础上做了修改，称为Github Flavored Markdown。
-最近对它颇感兴趣，便在网上搜集并整理了一些资料，帮助大家快速了解README文件如何编写。
+最近对它颇感兴趣，便花了点时间研究下，整理出来，帮助大家快速了解README文件如何编写。
 
 ## 关于标题
 标题分为六个等级，等同于HTML h1 - h6，显示的文本大小依次减小。
@@ -72,7 +72,7 @@ ___
 或者就是在两行文本直接加一个空行，就像这样。
 
 ####单行文本
-使用一个Tab符实现单行文本，效果如下：
+使用一个Tab包围起来符实现单行文本，效果如下：
 
 	Hello, Hanl.
 
@@ -91,6 +91,10 @@ ___
 
 Hello, `Hanl`. what is your `phonenumber` ?
 
+	`Hello, Hanl. what is your phonenumber` ? // 高亮一整块 效果如下
+
+`Hello, Hanl. what is your phonenumber ?`
+
 ####删除线
 想要实现文字删除线，可以把它用 \~~ \~~ 包围起来（注意使用英文输入法），用法如下：
 
@@ -108,6 +112,6 @@ Hello, `Hanl`. what is your `phonenumber` ?
 ##关于链接
 给一段文字加入超链接的格式是这样的 \[要显示的文字\]\(链接的地址\)。比如：
 
-[百度](http://www.baidu.com "鼠标悬停显示") 语法如下:
+[百度](http://www.baidu.com "鼠标悬停显示")   语法如下:
 
 	[百度](http://www.baidu.com "鼠标悬停显示")
