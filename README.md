@@ -182,7 +182,7 @@ Hello, `Hanl`. what is your `phonenumber ?`
 *  css
 *  javascript
 
-#### 复选框列表
+####复选框列表
 	- [x] html
 	- [x] css
 	- [x] javascript
@@ -218,6 +218,7 @@ Hello, `Hanl`. what is your `phonenumber ?`
 	```html
 	<div><p class="readme">README</p></div> // html
 	```
+	效果如下:
 
 ```html
 <div><p class="readme">README</p></div> // html
@@ -226,16 +227,24 @@ Hello, `Hanl`. what is your `phonenumber ?`
 	```css
 	.readme{color: red;font-size: 16px;} // css
 	```
-	
+	效果如下:
+
 ```css
 .readme{color: red;font-size: 16px;} // css
 ```
 
 	```javascript
 	document.documentElement.title = "README"; // javascipt
-
 	```
+	效果如下:
+
 ```javascript
 document.documentElement.title = "README"; // javascipt
 ```
 
+##添加表情
+输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。
+
+比如`:blush:`，可以显示:blush:。
+
+具体每一个表情的符号码，可以查询[emoji](./emoji.md)
