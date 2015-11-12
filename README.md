@@ -216,7 +216,7 @@ Hello, `Hanl`. what is your `phonenumber ?`
 要实现语法高亮那么只要在 \`\`\` 之后加上你的编程语言即可（忽略大小写）。c++语言可以写成c++也可以是cpp。比如：
 	
 	```html
-	<div><p class="readme">README</p></div> // html
+	<div><p class="readme">README</p></div> // html 效果如下:
 	```
 	效果如下:
 
@@ -225,21 +225,19 @@ Hello, `Hanl`. what is your `phonenumber ?`
 ```
 
 	```css
-	.readme{color: red;font-size: 16px;} // css
+	.readme{color: red;font-size: 16px;} // css 效果如下:
 	```
-	效果如下:
 
 ```css
 .readme{color: red;font-size: 16px;} // css
 ```
 
 	```javascript
-	document.documentElement.title = "README"; // javascipt
+	document.documentElement.title = "README"; // javascipt 效果如下:
 	```
-	效果如下:
 
 ```javascript
-document.documentElement.title = "README"; // javascipt
+document.documentElement.title = "README"; // javascipt 效果如下:
 ```
 
 ##添加表情
