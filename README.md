@@ -137,14 +137,16 @@ Hello, `Hanl`. what is your `phonenumber ?`
 [回到xxx](#xxx)
 
 ##显示图片
-####外部链接的图片。比如：
+####外部链接的图片
 
 	![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo") // 效果如下:
 
 ![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
 
-####github仓库中的图片。比如：
+####加上链接的图片
 
-	![](https://github.com/dongshaohan/dongshaohan.github.io/tree/master/public/img/1.jpg) // 效果如下:
+	[![head]](http://www.baidu.com/)
+	[head]:http://www.baidu.com/img/bdlogo.gif "点击图片进入百度" // 效果如下:
 
-![](https://github.com/dongshaohan/dongshaohan.github.io/tree/master/public/img/1.jpg)
+[![head]](http://www.baidu.com/)
+[head]:http://www.baidu.com/img/bdlogo.gif "点击图片进入百度"
